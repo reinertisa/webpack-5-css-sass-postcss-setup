@@ -1,0 +1,24 @@
+{
+  "name": "webpack-5-css-sass-postcss-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "repository": "https://github.com/reinertisa/webpack-5-css-sass-postcss-setup.git",
+  "author": "Isa Reinert <reinert.isa@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.5.2",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.2.3",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
